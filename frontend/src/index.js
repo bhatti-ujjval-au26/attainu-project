@@ -11,6 +11,7 @@ import ShippingScreen from "./srceen/ShippingScreen.js";
 import PaymentScreen from "./srceen/PaymentScreen.js";
 import PlaceOrderScreen from "./srceen/PlaceOrderScreen.js";
 import OrderScreen from "./srceen/OrderScreen.js";
+import DashboardScreen from "./srceen/DashboardScreen.js";
 
 const routes = {
     "/": HomeScreen,
@@ -24,6 +25,7 @@ const routes = {
     "/shipping": ShippingScreen,
     "/payment": PaymentScreen,
     "/placeorder": PlaceOrderScreen,
+    "/dashboard": DashboardScreen,
 };
 
     
