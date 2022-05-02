@@ -1,7 +1,7 @@
 export default {
   products: [
     {
-      _id: "1",
+      _id: "111111111111111111111111",
       name: "vegitable salad",
       category: "salad",
       image: "/image/product-1.jpg",
@@ -20,7 +20,7 @@ export default {
       brand: "Fresh",
       rating: 4.5,
       numReviews: 10,
-      countInStock: 6,
+      countInStock: 45,
     },
     {
       _id: "3",
@@ -42,7 +42,7 @@ export default {
       brand: "Fresh",
       rating: 4.5,
       numReviews: 10,
-      countInStock: 6,
+      countInStock: 45,
     },
     {
       _id: "5",
@@ -53,7 +53,7 @@ export default {
       brand: "Fresh",
       rating: 4.5,
       numReviews: 10,
-      countInStock: 6,
+      countInStock: 45,
     },
     {
       _id: "6",
@@ -64,7 +64,8 @@ export default {
       brand: "Fresh",
       rating: 4.5,
       numReviews: 10,
-      countInStock: 6,
+      countInStock: 45,
     },
   ],
 };
+
