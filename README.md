@@ -21,3 +21,11 @@ $ npm install
 $ npm start
 
 
+4. admin
+# admin  
+name: "admin",
+email: "bhattiujjval008@gmail.com",
+password: "12345",
+isAdmin: true,
+
+
