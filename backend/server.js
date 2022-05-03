@@ -10,6 +10,7 @@ import bodyParser from "body-parser";
 import userRouter from "./routers/userRouter";
 import orderRouter from "./routers/orderRouter";
 import config from "./config";
+const port = process.env.PORT || 3001;
 
 mongoose.connect("mongodb+srv://ujjval:12345@cluster0.o3jqs.mongodb.net/Zometo?retryWrites=true&w=majority", {
   useNewUrlParser: true,
@@ -45,6 +46,10 @@ app.use((err, req, res, next) => {
   const status = err.name && err.name === "ValidationError" ? 400 : 500;
   res.status(status).send({ message: err.message });
 });
-app.listen(6000, () => {
-  console.log("Server started on port 6000");
+
+app.use('/', (req, res) => {
+  res.send("server is running fine"); 
+});
+app.listen(port, () => {
+  console.log(`Server is listening on port ${port}`);
 });
